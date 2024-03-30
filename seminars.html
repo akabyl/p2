@@ -1,0 +1,520 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Семинары</title>
+		<link
+			rel="stylesheet"
+			href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
+		/>
+		<link rel="stylesheet" href="./css/main.css" />
+	</head>
+	<body>
+		<div
+			class="background-decor"
+			style="background-image: url(./img/mainbg.png)"
+		></div>
+		<div class="menu">
+	<header class="menu__header">
+		<a class="logo menu__logo" href="/">
+			<span class="logo-radius"></span>
+			логотип
+		</a>
+		<div class="menu__social">
+			<a href="#!"><img src="./img/icons/header-icon 2.png" alt="" /></a>
+			<a href="#!"><img src="./img/icons/header-icon.png" alt="" /></a>
+		</div>
+		<button class="menu-close">
+			<img src="./img/close.svg" alt="" />
+		</button>
+	</header>
+	<main class="menu__main">
+		<ul class="menu__main-list">
+			<li class="menu__main-item">
+				<a href="/" class="menu__main-link">Главная</a>
+			</li>
+			<li class="menu__main-item">
+				<a href="./about.html" class="menu__main-link">Об экспертах</a>
+			</li>
+			<li class="menu__main-item">
+				<a href="./seminars.html" class="menu__main-link">Семинары</a>
+			</li>
+			<li class="menu__main-item">
+				<a href="./services.html" class="menu__main-link">Услуги</a>
+			</li>
+			<li class="menu__main-item">
+				<a href="#!" class="menu__main-link">Блог</a>
+			</li>
+			<li class="menu__main-item">
+				<a href="#!" class="menu__main-link">Контакты</a>
+			</li>
+		</ul>
+	</main>
+	<footer class="menu__footer">
+		<div class="menu__footer-phone">
+			<a href="tel:+74991102047">+7 (499) 110-20-47</a>
+		</div>
+		<div class="menu__footer-feedback">
+			<img src="./img/icons/menu-tg.png" alt="" />
+			<img src="./img/icons/menu-wh.png" alt="" />
+			<button class="btn-outline">Заказать звонок</button>
+		</div>
+	</footer>
+</div>
+ 
+    <header class="header">
+	<div class="container">
+		<div class="header__row">
+			<div class="logo">
+				<span class="logo-radius"></span>
+				логотип
+			</div>
+			<div class="header__right">
+				<div class="header__links">
+					<a href="#!" class="header__link">
+						<img src="./img/icons/telegram.svg" alt="company_support_bot" />
+						<span>company_support_bot</span>
+					</a>
+					<a href="#!" class="header__link">
+						<img src="./img/icons/mail.svg" alt="info@mail.ru" />
+						<span>info@mail.ru</span>
+					</a>
+					<a href="#!" class="header__link header__link-phone">
+						<div>
+							<p class="header__link-text">
+								<span></span>
+								Звоните, мы сейчас работаем
+							</p>
+							<div class="header__link">
+								<img src="./img/icons/phone.svg" alt="company_support_bot" />
+								<span class="header__phone">+7 (499) 110 56 82</span>
+							</div>
+							<p class="header__link-text">Перезвоните мне</p>
+						</div>
+					</a>
+				</div>
+				<button class="header__menu">
+					<img src="./img/icons/menu.svg" alt="menu" />
+				</button>
+			</div>
+		</div>
+	</div>
+</header>
+
+    <section class="seminars-slider">
+	<div class="container">
+		<div class="breadcrubs">
+			<p class="breadcrubs__link">Главная > Услуги > Семинары</p>
+		</div>
+		<div class="seminars-slider__inner">
+			<div class="seminars-slider__left">
+				<h2 class="seminars-slider__title">Семинары</h2>
+				<div class="cases__btns cases__tabs">
+					<button
+						class="cases__btn tab-controls__btn tab-controls__btn--active"
+						data-tab="all"
+					>
+						Все
+					</button>
+					<button class="cases__btn tab-controls__btn" data-tab="couch">
+						Коучинг
+					</button>
+					<button class="cases__btn tab-controls__btn" data-tab="consalting">
+						Консалтинг
+					</button>
+				</div>
+				<div class="seminars-slider__pagination"></div>
+			</div>
+			<div class="seminars-slider__right">
+				<div class="swiper seminars-swiper">
+					<div class="swiper-wrapper">
+						<div class="swiper-slide" data-tab-value="couch">
+							<div class="seminars__card">
+								<img
+									class="seminars__card-img"
+									src=""
+									alt="Картинка семинара"
+								/>
+								<h4 class="seminars__card-title">Название семинара</h4>
+								<div class="seminars__card-rating">
+									<span class="star">
+										<img src="./img/icons/star.svg" alt="star" />
+										<img src="./img/icons/star.svg" alt="star" />
+										<img src="./img/icons/star.svg" alt="star" />
+										<img src="./img/icons/star.svg" alt="star" />
+										<img src="./img/icons/starNo.svg" alt="star" />
+									</span>
+									<span class="count">4.0</span>
+									<span class="star-count">888 оценок</span>
+								</div>
+								<p class="seminars__card-text">
+									Описание семинара dolor sit amet, consectetuer adipiscing elit
+									amet
+								</p>
+								<a href="#!" class="seminars__card-btn">Записаться</a>
+							</div>
+						</div>
+						<div class="swiper-slide" data-tab-value="consalting">
+							<div class="seminars__card">
+								<img
+									class="seminars__card-img"
+									src=""
+									alt="Картинка семинара"
+								/>
+								<h4 class="seminars__card-title">Название семинара</h4>
+								<div class="seminars__card-rating">
+									<span class="star">
+										<img src="./img/icons/star.svg" alt="star" />
+										<img src="./img/icons/star.svg" alt="star" />
+										<img src="./img/icons/star.svg" alt="star" />
+										<img src="./img/icons/star.svg" alt="star" />
+										<img src="./img/icons/starNo.svg" alt="star" />
+									</span>
+									<span class="count">4.0</span>
+									<span class="star-count">888 оценок</span>
+								</div>
+								<p class="seminars__card-text">
+									Описание семинара dolor sit amet, consectetuer adipiscing elit
+									amet
+								</p>
+								<a href="#!" class="seminars__card-btn">Записаться</a>
+							</div>
+						</div>
+						<div class="swiper-slide" data-tab-value="couch">
+							<div class="seminars__card">
+								<img
+									class="seminars__card-img"
+									src=""
+									alt="Картинка семинара"
+								/>
+								<h4 class="seminars__card-title">Название семинара</h4>
+								<div class="seminars__card-rating">
+									<span class="star">
+										<img src="./img/icons/star.svg" alt="star" />
+										<img src="./img/icons/star.svg" alt="star" />
+										<img src="./img/icons/star.svg" alt="star" />
+										<img src="./img/icons/star.svg" alt="star" />
+										<img src="./img/icons/starNo.svg" alt="star" />
+									</span>
+									<span class="count">4.0</span>
+									<span class="star-count">888 оценок</span>
+								</div>
+								<p class="seminars__card-text">
+									Описание семинара dolor sit amet, consectetuer adipiscing elit
+									amet
+								</p>
+								<a href="#!" class="seminars__card-btn">Записаться</a>
+							</div>
+						</div>
+						<div class="swiper-slide" data-tab-value="consalting">
+							<div class="seminars__card">
+								<img
+									class="seminars__card-img"
+									src=""
+									alt="Картинка семинара"
+								/>
+								<h4 class="seminars__card-title">Название семинара</h4>
+								<div class="seminars__card-rating">
+									<span class="star">
+										<img src="./img/icons/star.svg" alt="star" />
+										<img src="./img/icons/star.svg" alt="star" />
+										<img src="./img/icons/star.svg" alt="star" />
+										<img src="./img/icons/star.svg" alt="star" />
+										<img src="./img/icons/starNo.svg" alt="star" />
+									</span>
+									<span class="count">4.0</span>
+									<span class="star-count">888 оценок</span>
+								</div>
+								<p class="seminars__card-text">
+									Описание семинара dolor sit amet, consectetuer adipiscing elit
+									amet
+								</p>
+								<a href="#!" class="seminars__card-btn">Записаться</a>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="seminars-slider-prev">
+					<img src="./img/swiper/arrow-left.png" alt="" />
+				</div>
+				<div class="seminars-slider-next">
+					<img src="./img/swiper/arrow-right.png" alt="" />
+				</div>
+			</div>
+		</div>
+	</div>
+</section>
+
+    <section class="rewiews-slider">
+	<div class="container">
+		<div class="rewiews-slider__inner">
+			<div class="rewiews-slider__left">
+				<h2 class="rewiews-slider__title">Отзывы о семинарах</h2>
+				<div class="cases__btns cases__tabs">
+					<button
+						class="cases__btn tab-controls__btn tab-controls__btn--active"
+						data-tab="all"
+					>
+						Все
+					</button>
+					<button class="cases__btn tab-controls__btn" data-tab="couch">
+						Коучинг
+					</button>
+					<button class="cases__btn tab-controls__btn" data-tab="consalting">
+						Консалтинг
+					</button>
+				</div>
+				<div class="rewiews-slider__pagination"></div>
+			</div>
+			<div class="rewiews-slider__right">
+				<div class="swiper rewiews-swiper">
+					<div class="swiper-wrapper">
+						<div class="swiper-slide" data-tab-value="couch">
+							<div class="about__item">
+								<div class="about__item-left">
+									<img class="quot" src="./img/icons/quot.png" alt="" />
+									<h3 class="about__item-title">
+										«Lorem ipsum dolor sit amet, consectetuer adipiscing elit »
+									</h3>
+									<p class="about__item-text">
+										«Lorem ipsum dolor sit amet, consectetuer adipiscing elit.
+										Aenean commodo ligula Lorem ipsum dolor sit amet,
+										consectetuer adipiscing elit. Aenean commodo ligula Lorem
+										ipsum dolor sit amet, consectetuer adipiscing elit. Aenean
+										commodo ligula Lorem ipsum dolor sit amet, consectetuer
+										adipiscing elit. Aenean commodo ligula Lorem ipsum dolor sit
+										amet, consectetuer adipiscing elit. Aenean commodo ligula
+										Lorem ipsum dolor sit amet, consectetuer adipiscing elit.
+										Aenean commodo ligula »
+									</p>
+								</div>
+								<div class="about__item-right">
+									<div class="about__item-images">
+										<img class="avatar" src="./img/moloy.png" alt="" />
+										<button class="video-play">
+											<img src="./img/video.png" alt="" />
+										</button>
+									</div>
+									<h4 class="avatar-title">Иван Демидов</h4>
+									<p class="avatar-subtitle">Должность</p>
+								</div>
+							</div>
+						</div>
+						<div class="swiper-slide" data-tab-value="consalting">
+							<div class="about__item">
+								<div class="about__item-left">
+									<img class="quot" src="./img/icons/quot.png" alt="" />
+									<h3 class="about__item-title">
+										«Lorem ipsum dolor sit amet, consectetuer adipiscing elit »
+									</h3>
+									<p class="about__item-text">
+										«Lorem ipsum dolor sit amet, consectetuer adipiscing elit.
+										Aenean commodo ligula Lorem ipsum dolor sit amet,
+										consectetuer adipiscing elit. Aenean commodo ligula Lorem
+										ipsum dolor sit amet, consectetuer adipiscing elit. Aenean
+										commodo ligula Lorem ipsum dolor sit amet, consectetuer
+										adipiscing elit. Aenean commodo ligula Lorem ipsum dolor sit
+										amet, consectetuer adipiscing elit. Aenean commodo ligula
+										Lorem ipsum dolor sit amet, consectetuer adipiscing elit.
+										Aenean commodo ligula »
+									</p>
+								</div>
+								<div class="about__item-right">
+									<div class="about__item-images">
+										<img class="avatar" src="./img/moloy.png" alt="" />
+										<button class="video-play">
+											<img src="./img/video.png" alt="" />
+										</button>
+									</div>
+									<h4 class="avatar-title">Иван Демидов</h4>
+									<p class="avatar-subtitle">Должность</p>
+								</div>
+							</div>
+						</div>
+						<div class="swiper-slide" data-tab-value="couch">
+							<div class="about__item">
+								<div class="about__item-left">
+									<img class="quot" src="./img/icons/quot.png" alt="" />
+									<h3 class="about__item-title">
+										«Lorem ipsum dolor sit amet, consectetuer adipiscing elit »
+									</h3>
+									<p class="about__item-text">
+										«Lorem ipsum dolor sit amet, consectetuer adipiscing elit.
+										Aenean commodo ligula Lorem ipsum dolor sit amet,
+										consectetuer adipiscing elit. Aenean commodo ligula Lorem
+										ipsum dolor sit amet, consectetuer adipiscing elit. Aenean
+										commodo ligula Lorem ipsum dolor sit amet, consectetuer
+										adipiscing elit. Aenean commodo ligula Lorem ipsum dolor sit
+										amet, consectetuer adipiscing elit. Aenean commodo ligula
+										Lorem ipsum dolor sit amet, consectetuer adipiscing elit.
+										Aenean commodo ligula »
+									</p>
+								</div>
+								<div class="about__item-right">
+									<div class="about__item-images">
+										<img class="avatar" src="./img/moloy.png" alt="" />
+										<button class="video-play">
+											<img src="./img/video.png" alt="" />
+										</button>
+									</div>
+									<h4 class="avatar-title">Иван Демидов</h4>
+									<p class="avatar-subtitle">Должность</p>
+								</div>
+							</div>
+						</div>
+						<div class="swiper-slide" data-tab-value="consalting">
+							<div class="about__item">
+								<div class="about__item-left">
+									<img class="quot" src="./img/icons/quot.png" alt="" />
+									<h3 class="about__item-title">
+										«Lorem ipsum dolor sit amet, consectetuer adipiscing elit »
+									</h3>
+									<p class="about__item-text">
+										«Lorem ipsum dolor sit amet, consectetuer adipiscing elit.
+										Aenean commodo ligula Lorem ipsum dolor sit amet,
+										consectetuer adipiscing elit. Aenean commodo ligula Lorem
+										ipsum dolor sit amet, consectetuer adipiscing elit. Aenean
+										commodo ligula Lorem ipsum dolor sit amet, consectetuer
+										adipiscing elit. Aenean commodo ligula Lorem ipsum dolor sit
+										amet, consectetuer adipiscing elit. Aenean commodo ligula
+										Lorem ipsum dolor sit amet, consectetuer adipiscing elit.
+										Aenean commodo ligula »
+									</p>
+								</div>
+								<div class="about__item-right">
+									<div class="about__item-images">
+										<img class="avatar" src="./img/moloy.png" alt="" />
+										<button class="video-play">
+											<img src="./img/video.png" alt="" />
+										</button>
+									</div>
+									<h4 class="avatar-title">Иван Демидов</h4>
+									<p class="avatar-subtitle">Должность</p>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="rewiews-footer">
+					<div class="rew-btns">
+						<button class="rewiews-slider-prev">
+							<img src="./img/swiper/arrow-left.png" alt="" />
+						</button>
+						<button class="rewiews-slider-next">
+							<img src="./img/swiper/arrow-right.png" alt="" />
+						</button>
+					</div>
+					<div class="pagination-rew"></div>
+				</div>
+			</div>
+		</div>
+	</div>
+</section>
+
+    <section class="services-form">
+	<div class="container">
+		<div class="services-form__inner">
+			<div class="services-form__left">
+				<h2 class="form-title">Остались вопросы?</h2>
+				<div action="" class="form-services">
+					<div class="form-services__left">
+						<h3 class="form-services__title">
+							<span>Заполните</span> форму <br />
+							и мы с Вами свяжемся в ближайшее время
+						</h3>
+					</div>
+					<div class="form-services__right">
+						<form action="" class="form">
+							<input
+								class="form__input form__input-phone"
+								type="tel"
+								placeholder="+7 (___)  - ___ - __ - __"
+							/>
+							<div class="form__center">
+								<input
+									class="form__input form__input-name"
+									type="text"
+									placeholder="Ваше имя"
+								/>
+								<input
+									class="form__input form__input-mail"
+									type="text"
+									placeholder="Ваш e-mail"
+								/>
+							</div>
+							<textarea
+								class="form__textarea"
+								name=""
+								id=""
+								placeholder="Текст сообщения"
+							></textarea>
+							<div class="flex">
+								<label class="form__label">
+									<input class="form__checkbox" type="checkbox" />
+									<p>
+										Вы соглашаетесь с условиями
+										<span>обработки персональных данных</span>
+									</p>
+								</label>
+								<button class="form__btn">Отправить</button>
+							</div>
+						</form>
+					</div>
+				</div>
+			</div>
+			<div class="services-form__right">
+				<img src="./img/icons/imgform.png" alt="" />
+			</div>
+		</div>
+	</div>
+</section>
+ 
+    <div class="map-container">
+	<div id="map" class="map">
+		<div class="container">
+			<div class="map__contacts">
+				<h2 class="map__title">Наши контакты</h2>
+				<p class="map__text">
+					<img src="../../img/icons/geo.png" alt="" />
+					<span>Москва, Ср.Овчинниковский, переулок, 12</span>
+				</p>
+				<a class="map__phone" href="tel:+74991105682">
+					<img src="../../img/phone-foot.png" alt="" />
+					<span>+7 (499) 110 56 82</span>
+				</a>
+				<a class="map__social" href="#!">
+					<img src="../../img/telegram.png" alt="" />
+					<span>support_bot</span>
+				</a>
+				<a class="map__contact" href="#!">
+					<img src="../../img/contact.png" alt="" />
+					<span>info@mail.ru</span>
+				</a>
+			</div>
+		</div>
+	</div>
+</div>
+
+		<footer class="footer">
+	<div class="container">
+		<a href="#!">
+			<img src="./img/footer-logo.svg" alt="">
+		</a>
+		<div class="copyright">
+			<p class="copyright__text">© 2014–2023, ООО «Комапния>></p>
+			<a class="copyright__link" href="#!">Политика конфединциальности</a>
+		</div>
+	</div>
+</footer>
+
+		<script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+		<script
+			src="https://api-maps.yandex.ru/2.1/?apikey=fca28fe7-4591-40f3-a688-8d745f6624b5&lang=ru_RU"
+			type="text/javascript"
+		></script>
+		<script src="./js/tabsSeminar.js"></script>
+		<script src="./js/map.js"></script>
+		<script src="./js/index.js"></script>
+	</body>
+</html>
